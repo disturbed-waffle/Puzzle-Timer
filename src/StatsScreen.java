@@ -33,7 +33,7 @@ public class StatsScreen extends JPanel implements ActionListener { // The Stats
     StatsScreen() { // Constructs the StatsScreen
         this.setLayout(new BorderLayout());
 
-        // sets all the icons to their image contained in in the resources
+        // sets all the icons to their image contained in the resources
         try {
             helpIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/HelpIcon.png")));
             pressedHelpIcon = new ImageIcon(ImageIO.read(getClass().getResourceAsStream("/PressedHelpIcon.png")));
